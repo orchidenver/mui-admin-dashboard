@@ -10,7 +10,7 @@ import Contacts from "./pages/contacts";
 import Form from "./pages/form";
 // import Line from "./pages/line";
 // import Pie from "./pages/pie";
-// import FAQ from "./pages/faq";
+import FAQ from "./pages/faq";
 // import Geography from "./pages/geography";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
@@ -35,8 +35,8 @@ function App() {
               <Route path="/form" element={<Form />} />
               {/* <Route path="/bar" element={<Bar />} />
               <Route path="/pie" element={<Pie />} />
-              <Route path="/line" element={<Line />} />
-              <Route path="/faq" element={<FAQ />} /> */}
+              <Route path="/line" element={<Line />} /> */}
+              <Route path="/faq" element={<FAQ />} />
               <Route path="/calendar" element={<Calendar />} />
               {/* <Route path="/geography" element={<Geography />} /> */}
             </Routes>
